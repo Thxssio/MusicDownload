@@ -36,9 +36,11 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: MusicLinuxTest
       run: |
-        export DISPLAY=:0.0
         pip install PySimpleGUI
         pip install pytube
         pip install moviepy
         
-        python Music.py
+        from pytube import YouTube
+        yt = YouTube('http://youtube.com/watch?v=2lAe1cqCOXo')
+        yt.title
+      
