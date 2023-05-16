@@ -5,6 +5,6 @@
 ***MusicDownload***
 
 
-*  `Linux` ![Linux](https://github.com/github/docs/actions/workflows/python-app.yml/badge.svg)
+*  `Linux` ![Linux](https://github.com/Thxssio/MusicDownload/blob/main/.github/workflows/python-app.yml/badge.svg)
 *  `Windows` (beta)
 *  `Android`(Under development)
