@@ -35,7 +35,7 @@ sg.theme('Reddit')
 layout = [
     [sg.Text('Link do video:'), sg.Input(key='Link', size=(20, 1))],
     [sg.Text('Salvar em:    '), sg.Input(key='Dir', size=(20, 1))],
-    [sg.FolderBrowse(size=(30, 1), key='Browse', target='Dir')],
+    [sg.Text('Procurar Pasta:'),sg.FolderBrowse(size=(20, 1), key='Procurar pasta', target='Dir')],
     [sg.Button('Download')]
 ]
 
@@ -63,7 +63,7 @@ def download_music(link,path):
     print(path)
 
     yt = YouTube(link)
-    ys = yt.streams.filter(only_audio=True).first().download(path)
+    yt = yt.streams.filter(only_audio=True).first().download(path)
     for file in os.listdir(path):                 
         if re.search('mp4', file):                                     
             mp4_path = os.path.join(path , file)  
@@ -73,7 +73,6 @@ def download_music(link,path):
             os.remove(mp4_path)                    
     print("Download Completo")
     
-
 
 while True:
     eventos, valores = janela.read()
