@@ -5,6 +5,6 @@
 ***MusicDownload***
 
 
-*  `Linux` (stable)
+*  `Linux` ![Linux](https://github.com/github/docs/actions/workflows/python-app.yml/badge.svg)
 *  `Windows` (beta)
 *  `Android`(Under development)
