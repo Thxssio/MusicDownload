@@ -4,7 +4,9 @@
 
 ***MusicDownload***
 
+[![Python application](https://github.com/Thxssio/MusicDownload/actions/workflows/python-app.yml/badge.svg)](https://github.com/Thxssio/MusicDownload/actions/workflows/python-app.yml)
 
-*  `Linux` [![Python application](https://github.com/Thxssio/MusicDownload/actions/workflows/python-app.yml/badge.svg)](https://github.com/Thxssio/MusicDownload/actions/workflows/python-app.yml)
+
+*  `Linux` 
 *  `Windows` (beta)
 *  `Android`(Under development)
