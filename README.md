@@ -5,5 +5,6 @@
 ***MusicDownload***
 
 
-*  `Linux`
-*  `Windows`
+*  `Linux` (beta)
+*  `Windows` (beta)
+*  `Android`(Under development)
